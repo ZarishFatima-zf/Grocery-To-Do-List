@@ -1,0 +1,68 @@
+body {
+    background: url('https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background: black;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .container input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .container button {
+    padding: 10px;
+    margin-bottom: 10px; /* Added margin-bottom for the buttons */
+  }
+  
+  .container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Added align-items for vertical alignment */
+    margin-left: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: white;
+    width: 73%;
+  }
+  
+  .container li span {
+    margin-right: 10px;
+  }
+  
+  .container li .delete-icon,
+  .container li .edit-icon {
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .container li .delete-icon {
+    margin-left: 20rem; /* Added margin-right for spacing */
+  }
+  
+  .container li .edit-icon {
+    margin-left: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
